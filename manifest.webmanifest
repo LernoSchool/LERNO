@@ -12,11 +12,11 @@
   "theme_color": "#071f57",
   "description": "برنامه‌ریز شخصی دانش‌آموز برای تکالیف، کلاس‌ها و زمان مطالعه.",
   "icons": [
-    {"src":"./assets/lerno-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"./assets/lerno-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {"src":"./assets/lerno-logo-192-v2.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/lerno-logo-512-v2.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ],
   "shortcuts": [
-    {"name":"صفحه اصلی","url":"./","icons":[{"src":"./assets/lerno-icon-192.png","sizes":"192x192"}]},
-    {"name":"تقویم","url":"./?page=calendar","icons":[{"src":"./assets/lerno-icon-192.png","sizes":"192x192"}]}
+    {"name":"صفحه اصلی","url":"./","icons":[{"src":"./assets/lerno-logo-192-v2.png","sizes":"192x192"}]},
+    {"name":"تقویم","url":"./?page=calendar","icons":[{"src":"./assets/lerno-logo-192-v2.png","sizes":"192x192"}]}
   ]
 }
