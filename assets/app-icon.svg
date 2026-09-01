@@ -1,9 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#101827"/>
-  <path d="M112 146h288v220H112z" fill="#fff" opacity=".96"/>
-  <path d="M112 146h288v58H112z" fill="#1677ff"/>
-  <path d="M164 118v56M348 118v56" stroke="#fff" stroke-width="24" stroke-linecap="round"/>
-  <path d="M169 258h62M281 258h62M169 315h62M281 315h62" stroke="#1677ff" stroke-width="22" stroke-linecap="round"/>
-  <circle cx="376" cy="374" r="74" fill="#1677ff"/>
-  <path d="m343 375 23 23 45-52" fill="none" stroke="#fff" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <radialGradient id="bg" cx="52%" cy="32%" r="78%">
+      <stop offset="0" stop-color="#15233a"/>
+      <stop offset="0.55" stop-color="#0b1526"/>
+      <stop offset="1" stop-color="#060d18"/>
+    </radialGradient>
+    <linearGradient id="electric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#55b8ff"/>
+      <stop offset="0.48" stop-color="#1f82ff"/>
+      <stop offset="1" stop-color="#0757e6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#2184ff" flood-opacity="0.35"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="1164" rx="190" fill="none" stroke="#fff" stroke-opacity="0.045" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle cx="600" cy="415" r="178" fill="none" stroke="#17335d" stroke-width="46"/>
+    <circle cx="600" cy="415" r="178" fill="none" stroke="url(#electric)" stroke-width="46" stroke-linecap="round" stroke-dasharray="790 330" transform="rotate(-48 600 415)"/>
+    <path d="M494 426L565 496 718 335" fill="none" stroke="#f5f8ff" stroke-width="43" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="744" cy="307" r="15" fill="#f5f8ff"/>
+  </g>
+  <text x="600" y="800" text-anchor="middle" font-family="URW Gothic,Nimbus Sans,Arial,sans-serif" font-size="164" font-weight="600" letter-spacing="12"><tspan fill="#f5f8ff">LER</tspan><tspan fill="#2287ff">NO</tspan></text>
+  <text x="600" y="907" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" font-family="DejaVu Sans,Arial,sans-serif" font-size="33" fill="#aebbd0">لرنو؛ وقتت را هوشمندانه بساز</text>
 </svg>

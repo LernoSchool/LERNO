@@ -12,11 +12,12 @@
   "theme_color": "#071f57",
   "description": "برنامه‌ریز شخصی دانش‌آموز برای تکالیف، کلاس‌ها و زمان مطالعه.",
   "icons": [
-    {"src":"./assets/lerno-focus-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"./assets/lerno-focus-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {"src":"./assets/lerno-focus-orbit-v14-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/lerno-focus-orbit-v14-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./assets/lerno-focus-orbit-v14-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
   ],
   "shortcuts": [
-    {"name":"صفحه اصلی","url":"./","icons":[{"src":"./assets/lerno-focus-192.png","sizes":"192x192"}]},
-    {"name":"تقویم","url":"./?page=calendar","icons":[{"src":"./assets/lerno-focus-192.png","sizes":"192x192"}]}
+    {"name":"صفحه اصلی","url":"./","icons":[{"src":"./assets/lerno-focus-orbit-v14-192.png","sizes":"192x192"}]},
+    {"name":"تقویم","url":"./?page=calendar","icons":[{"src":"./assets/lerno-focus-orbit-v14-192.png","sizes":"192x192"}]}
   ]
 }
