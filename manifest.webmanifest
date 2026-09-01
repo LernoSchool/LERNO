@@ -1,5 +1,5 @@
 {
-  "name": "LERNO | وقتت را هوشمندانه بساز",
+  "name": "LERNO",
   "short_name": "LERNO",
   "id": "./",
   "lang": "fa",
@@ -7,7 +7,7 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone"],
+  "display_override": ["standalone"],
   "background_color": "#071f57",
   "theme_color": "#071f57",
   "description": "برنامه‌ریز شخصی دانش‌آموز برای تکالیف، کلاس‌ها و زمان مطالعه.",
